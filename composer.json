@@ -1,0 +1,20 @@
+{
+    "name": "websms/laravel-notification",
+    "description": "WebSms Laravel Notification",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Mohammad Hs",
+            "email": "webp1995@gmail.com"
+        }
+    ],
+    "require": {
+        "websms/php-sdk": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Websms\\LaravelNotification\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
